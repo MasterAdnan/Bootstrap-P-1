@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    font-weight: 450;
+}
+.nav-link{
+    font-weight: 450;
+}
+
+.container #carouselExampleIndicators .carousel-inner img{
+    height: 90vh;
+    background-size: cover;
+}
+.section01 .col-md-3{
+    width: 100%;
+}
+
+
+
+
+
+@media(max-width:1000px){
+    #carouselExampleIndicators .carousel-inner #slide1 img{
+        width: 110%;
+        height: 60vh;
+    }
+    #carouselExampleIndicators .carousel-inner #slide2 img{
+        width: 110%;
+        height: 60vh;
+    }
+    #carouselExampleIndicators .carousel-inner #slide3 img{
+        width: 110%;
+        height: 60vh;
+    }
+}
+
+@media(max-width:800px){
+    #carouselExampleIndicators .carousel-inner #slide1 img{
+        width: 100%;
+        height: 60vh;
+    }
+    #carouselExampleIndicators .carousel-inner #slide2 img{
+        width: 100%;
+        height: 60vh;
+    }
+    #carouselExampleIndicators .carousel-inner #slide3 img{
+        width: 100%;
+        height: 60vh;
+    }
+}
+
+@media(max-width:750px){
+    #carouselExampleIndicators .carousel-inner #slide1 img{
+        width: 100%;
+        height: 50vh;
+    }
+    #carouselExampleIndicators .carousel-inner #slide2 img{
+        width: 100%;
+        height: 50vh;
+    }
+    #carouselExampleIndicators .carousel-inner #slide3 img{
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+
+@media(max-width:700px){
+    #carouselExampleIndicators .carousel-inner #slide1 img{
+        width: 100%;
+        height: 45vh;
+    }
+    #carouselExampleIndicators .carousel-inner #slide2 img{
+        width: 100%;
+        height: 45vh;
+    }
+    #carouselExampleIndicators .carousel-inner #slide3 img{
+        width: 100%;
+        height: 45vh;
+    }
+}
+
+@media(max-width:600px){
+    #carouselExampleIndicators .carousel-inner #slide1 img{
+        width: 90%;
+        height: 40vh;
+    }
+    #carouselExampleIndicators .carousel-inner #slide2 img{
+        width: 90%;
+        height: 40vh;
+    }
+    #carouselExampleIndicators .carousel-inner #slide3 img{
+        width: 90%;
+        height: 40vh;
+    }
+}
+
+@media(max-width:550px){
+    #carouselExampleIndicators .carousel-inner #slide1 img{
+        width: 50%;
+        height: 38vh;
+    }
+    #carouselExampleIndicators .carousel-inner #slide2 img{
+        width: 50%;
+        height: 38vh;
+    }
+    #carouselExampleIndicators .carousel-inner #slide3 img{
+        width: 50%;
+        height: 38vh;
+    }
+}
